@@ -1,6 +1,22 @@
 [
     {
-        "title":"Test Title",
-        "text":"Test text"
+        "title": "This is a note",
+        "text": "It is very notable",
+        "id": "54909a7e-b7d0-4d5d-8637-0513a93e24ae"
+    },
+    {
+        "title": "I like notes",
+        "text": "It helps me keep track of things",
+        "id": "b1e4a2c7-b645-4055-aa46-b8e305536679"
+    },
+    {
+        "title": "Is something noteworthy?",
+        "text": "That in itself is worth noting.",
+        "id": "8fc12b06-8aae-4d1d-aa95-fcf5dde2a1c4"
+    },
+    {
+        "title": "NOOOOTE",
+        "text": "a note",
+        "id": "31d7983d-5921-4169-be2d-9f8a423c9113"
     }
 ]
