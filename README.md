@@ -20,9 +20,9 @@ add the note to the column on the left, displaying its title. Clicking on any no
 body associated with the given note. Pressing the red button on a given note will delete it from the list and the database. Finally, pressing the 'Note Taker' button
 in the top left will take users back to the landing page.
 
-[Screenshot Of the Landing Page](./public/assets/images/note-taken-landing-screenshot.png)
+![Screenshot Of the Landing Page](./public/assets/images/note-taken-landing-screenshot.png)
 
-[Screenshot Of the Notes Page](./public/assets/images/note-taken-list-screenshot.png)
+![Screenshot Of the Notes Page](./public/assets/images/note-taken-list-screenshot.png)
 
 ## Credits
 
