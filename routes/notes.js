@@ -1,12 +1,13 @@
+// Pull the required module functions
 const notes = require('express').Router();
 const { v4: uuidv4 } = require('uuid');
 const { readAndAppend, readFromFile, writeToFile} = require('../helpers/fsfilehelp');
-
+// Read from file upon a GET request
 notes.get('/', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
-
+// Function to post a new note to a list
 notes.post('/', (req, res) => {
 
     const {title, text} = req.body;
@@ -26,7 +27,7 @@ notes.post('/', (req, res) => {
     }
 
 });
-
+// Function to delete an existing note from the list
 notes.delete('/:id', async (req, res) => {
     const {id} = req.params;
     let currentArray = [];
