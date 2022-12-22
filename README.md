@@ -14,6 +14,8 @@ can either use the chrome dev tools or a API simulator to work with testing and 
 
 ## Usage
 
+[Link to deployed application](https://fathomless-citadel-37887.herokuapp.com/)
+
 Upon launching the app, you will be brought to the landing page, from there you can click on the 'Get Started' button to be taken to the note page. From there, clicking
 the '+' button in the top right will provide a blank template for a user to input the title of the note, and a more detailed body, pressing the save icon from there will
 add the note to the column on the left, displaying its title. Clicking on any note in the left column will bring it up to the right, allowing users to view the detailed
